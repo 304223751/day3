@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 600px;
+            height: 300px;
+            border: 2px solid skyblue;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .uls {
+            width: 100%;
+            display: flex;
+        }
+
+        .uls li {
+            flex: 1;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        .uls .col{
+            background: pink;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul class="uls">
+            <li class="col">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script>
+        $(function () {
+
+        })
+    </script>
+</body>
+
+</html>
