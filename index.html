@@ -51,7 +51,11 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script>
         $(function () {
-
+            $('.uls li').on('click',function(){
+                $(this).addClass('col').siblings().removeClass('col')
+                var ind= $(this).index();
+                $('.main div').eq(ind).addClass('aa').siblings().removeClass('aa')
+            })
         })
     </script>
 </body>
